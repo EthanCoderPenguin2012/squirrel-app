@@ -177,6 +177,16 @@ dependencies = [
 ]
 
 [[package]]
+name = "bradley"
+version = "1.0.1"
+dependencies = [
+ "image",
+ "pollster",
+ "wgpu",
+ "winit",
+]
+
+[[package]]
 name = "bumpalo"
 version = "3.19.0"
 source = "registry+https://github.com/rust-lang/crates.io-index"
@@ -1444,16 +1454,6 @@ source = "registry+https://github.com/rust-lang/crates.io-index"
 checksum = "eda41003dc44290527a59b13432d4a0379379fa074b70174882adfbdfd917844"
 dependencies = [
  "bitflags 2.9.4",
-]
-
-[[package]]
-name = "squirrel"
-version = "0.1.0"
-dependencies = [
- "image",
- "pollster",
- "wgpu",
- "winit",
 ]
 
 [[package]]
